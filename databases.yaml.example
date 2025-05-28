@@ -1,16 +1,16 @@
 databases:
   default:
-    engine: postgresql
-    name: ergo_ms
-    user: postgres
-    password: admin
-    host: localhost
+    engine: "postgresql"
+    name: "ergo_ms"
+    user: "postgres"
+    password: "admin"
+    host: "localhost"
     port: 5432
   
   analytics:
-    engine: mysql
-    name: world
-    user: root
-    password: admin
-    host: localhost
+    engine: "mysql"
+    name: "world"
+    user: "root"
+    password: "admin"
+    host: "localhost"
     port: 3306
